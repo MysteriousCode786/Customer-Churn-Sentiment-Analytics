@@ -35,10 +35,6 @@ The workflow shifts multi-layered properties smoothly across distinct algorithmi
 [Interactive Plotly Visual Analytics] <─── [System Output Banners] <─── [Inference Model (sklearn Array Execution)]
 
 ---
-
-### 🛠️ Production Code Directory Matrix (Isko Replace Karein)
-
-```markdown
 ## 📂 Production Code Directory Matrix
 
 ```text

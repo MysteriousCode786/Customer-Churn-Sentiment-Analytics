@@ -33,6 +33,7 @@ The workflow shifts multi-layered properties smoothly across distinct algorithmi
                                                                                 │
                                                                                 ▼
 [Interactive Plotly Visual Analytics] <─── [System Output Banners] <─── [Inference Model (sklearn Array Execution)]
+```
 
 ---
 ## 📂 Production Code Directory Matrix
@@ -44,6 +45,7 @@ The workflow shifts multi-layered properties smoothly across distinct algorithmi
 ├── README.md                         # Detailed project roadmap and architectural design overview
 ├── customer_churn_data.csv           # Initial simulated operational engagement parameters dataset
 └── customer_churn_with_sentiment.csv  # Preprocessed model dataset housing mapped textual compound weights
+```
 
 ---
 

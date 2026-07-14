@@ -102,7 +102,7 @@ st.subheader("📈 Customer Health Metrics Visualization")
 # Add a visual indicator graph using Plotly
 metrics_df = pd.DataFrame(
     {
-        "Metric": ["Monthly Logins", "Support Tickets", "Sentiment Score X 10"],
+        "Metric": ["Monthly Logins", "Support Tickets", "Sentiment Score (Scaled)"],
         "Value": [logins, tickets, sentiment_score * 10],
     }
 )
@@ -114,4 +114,10 @@ fig = px.bar(
     title = "Comparative Overview of Customer Key Indicators",
     template = "plotly_white"
 )
+
+fig.update_layout(
+    yaxis_title="Metric Value / Intensity Scale (-10 to +10)",
+    xaxis_title="" 
+)
+
 st.plotly_chart(fig, use_container_width = True)

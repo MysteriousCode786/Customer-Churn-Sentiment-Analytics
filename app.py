@@ -56,6 +56,7 @@ with col1:
     st.header("📝 Customer Review Text")
     # Unstructured text input for sentiment analysis
     review_text = st.text_area(
+        "Type or paste user feedback analysis metrics below:",
         value = "Type or paste user feedback",
         height = 120,
     )

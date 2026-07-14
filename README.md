@@ -25,16 +25,23 @@ Unlike traditional isolated tabular analysis, this architecture implements a **M
 ## 🏗️ System Pipeline Architecture
 
 The workflow shifts multi-layered properties smoothly across distinct algorithmic computational boundaries:
-[Raw User Properties] ----> [Sidebar Controls (Streamlit Engine)]
-│
+
+```text
+[Raw User Properties] ----> [Sidebar Controls (Streamlit Engine)] 
+                                      │
 [Unstructured Feedback] --> [NLTK VADER Extraction Module] ────> [Vector Matrix Frame (Pandas Dataframe)]
-│
-▼
+                                                                                │
+                                                                                ▼
 [Interactive Plotly Visual Analytics] <─── [System Output Banners] <─── [Inference Model (sklearn Array Execution)]
 
 ---
 
+### 🛠️ Production Code Directory Matrix (Isko Replace Karein)
+
+```markdown
 ## 📂 Production Code Directory Matrix
+
+```text
 ├── app.py                            # Reactive application UI framework & core inference runtime script
 ├── churn_model.pkl                   # Frozen, binary serialized Random Forest classifier model state
 ├── requirements.txt                  # Consolidated library deployment target manifest
